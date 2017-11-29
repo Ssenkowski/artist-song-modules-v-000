@@ -9,6 +9,8 @@ class Song
 
   extend Memorable::ClassMethods
   extend Findable::ClassMethods
+  extend Paramable::InstanceMethods
+
 
   @@songs = []
 
