@@ -9,3 +9,4 @@ module Memorable
       self.all.clear
     end
   end
+end
