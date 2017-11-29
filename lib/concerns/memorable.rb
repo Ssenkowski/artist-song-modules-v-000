@@ -1,5 +1,5 @@
 module Memorable
-
+  class Song
   def self.reset_all
     @@songs.clear
   end
@@ -7,7 +7,9 @@ module Memorable
   def self.count
     self.all.count
   end
+end
 
+class Artist
   def self.count
     @@artists.count
   end
